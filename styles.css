@@ -1,23 +1,27 @@
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  background-color: #fdd59e;
+  font-size: larger;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #5d6047;
+  border-radius: 20px;
 }
 
 #twitter-logo,
 #insta-logo,
 #linkedin-logo {
-  max-width: 70px;
+  max-width: 60px;
 }
 
-a {
+nav a {
   text-decoration: none;
-  color: black;
+  color: rgb(235, 225, 225);
 }
 
 a:hover {
@@ -28,25 +32,59 @@ a:hover {
 .grid-container {
   display: inline-grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 5%;
 }
 
-.description-links {
-  margin: 10px;
-}
-
+.description-links,
 .lists {
-  margin: 10px;
+  padding: 30px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 30px;
 }
 
 .pic img {
-  max-width: 300px;
+  max-width: 90%;
   border-radius: 50%;
-  margin: 30px;
+  display: block;
+  margin: 0 auto;
 }
 
 footer {
   margin-top: 20px;
   text-align: center;
+}
+
+form {
+  background-color: #4c4b40;
+  color: rgb(235, 225, 225);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+input {
+  margin-bottom: 20px;
+  height: 30px;
+  width: 50%;
+}
+
+label {
+  font-size: 20px;
+}
+
+.description-links:hover,
+.lists:hover {
+  background-color: #5d6047;
+  color: white;
+  transition: 0.3s;
+  padding: 40px;
+}
+
+h2 {
+  text-align: center;
+  color: #5d6047;
 }
