@@ -1,0 +1,52 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#twitter-logo,
+#insta-logo,
+#linkedin-logo {
+  max-width: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.description-links {
+  margin: 10px;
+}
+
+.lists {
+  margin: 10px;
+}
+
+.pic img {
+  max-width: 300px;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
